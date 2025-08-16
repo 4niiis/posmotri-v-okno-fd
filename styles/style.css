@@ -35,15 +35,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  /* margin: 0;
-  padding: 0; */
   max-height: min-content;
-
-  /* display: flex;
-  justify-content: center;
-  align-content: center; */
-
-
   padding:133px 30px;
 }
 
@@ -52,9 +44,7 @@ ol {
   align-content: end;
   width: 1200px;
   column-gap: 30px;
-  /* margin: auto; */
   max-height: min-content;
-  
 }
 
 .result {
@@ -86,7 +76,6 @@ ol {
 
 .search-form__fieldset {
   border: none;
-  /* width: 250px; */
 }
 
 .search-form__fieldset-title {
@@ -138,9 +127,6 @@ ol {
   border-color: #FFFFFF;
   border-width: 1px;
   padding: 1px;
-
-
-
 }
 
 .search-form__pseudo-checkbox::after {
@@ -152,18 +138,11 @@ ol {
   opacity: 0;
 }
 
-
-
-
-
-
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
   text-decoration: underline;
-  /* background-color: #FFFFFF; */
   cursor: pointer
 }
-
 
 .search-form__label-hover:hover {
   text-decoration: underline;
@@ -211,12 +190,6 @@ ol {
   min-height: 34px;
 }
 
-
-
-
-
-
-
 .content__details {
   max-height: min-content;
   width: 100%;
@@ -226,7 +199,6 @@ ol {
 .title {
   font-family: "Oswald", sans-serif;
   font-size: 75px;
-  /* font-weight: 700; */
   text-transform: uppercase;
   line-height: 72px;
   font-weight: bold;
@@ -290,20 +262,14 @@ ol {
   background-color: #545050;
 }
 
-
-
 .content__video-card {
   display: flex;
   align-content: start;
-  /* justify-content: space-between; */
 }
 
 .content__video-card-description-container {
   flex-grow: 1;
   max-width: 196px;
-  
-  
-  
 }
 
 .content__video-card-thumbnail {
@@ -311,7 +277,6 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
-  
 }
 
 .content__video-card-title {
@@ -322,8 +287,6 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  
-  
 }
 
 .content__video-card-description {
@@ -344,12 +307,6 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
-
-
-
-
-
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
