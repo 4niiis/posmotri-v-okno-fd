@@ -38,11 +38,6 @@ ol {
   max-height: min-content;
   padding-top:133px;
   padding-left: 30px;
-  /* display: grid;
-  grid-template: 1fr/1fr;
-  justify-items: center;
-  align-items: start; */
-
 }
 
 .content {
@@ -162,9 +157,6 @@ ol {
 .search-form__label:has(.search-form__checkbox:focus) {
   outline: 1px solid #fff;
 }
-/* .search-form__checkbox:focus {
-  outline: 1px solid #fff;
-} */
 
 .button {
   background-color: transparent;
@@ -191,7 +183,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #fff; /*ОТРЕДАКТИРОВАТЬ!!!!!!!!!!!!!!!!!*/
+  outline: 1px solid #fff;
 }
 
 .search-form__submit-button {
@@ -201,7 +193,6 @@ ol {
 
 .more-button{
   max-width: 390px;
-  /* min-height: 60px; */
 }
 
 .content__details {
